@@ -1,0 +1,18 @@
+{
+  "name": "js-exam",
+  "version": "1.0.0",
+  "description": "js exam",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./index.css -o ./dist/output.css --watch",
+    "tsc": "tsc -w"
+  },
+  "author": "pj",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
+  }
+}
